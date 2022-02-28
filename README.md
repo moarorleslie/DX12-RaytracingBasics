@@ -4,7 +4,7 @@
   - Reference: https://developer.nvidia.com/rtx/raytracing/dxr/DX12-Raytracing-tutorial-Part-2 
 - Features
   - Engine that can render geometry in rasterization pipeline or raytracing pipeline using spacebar key as a switch
-  - A Key to toggle animation, mouse orbit, scroll wheel zoom
+  - A Key to toggle animation, mouse down to orbit, scroll wheel zoom
   - Implemented DXR Diffuse Lighting Example from Microsoft
   - Used instancing from acceleration structures
   - Added cube to pipeline with its own closest hit shader
