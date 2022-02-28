@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67bebf86-9539-4f7f-b9e9-a376519ec1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nv_helpers_DX12">
+      <UniqueIdentifier>{413d51eb-e9f1-4fdd-a020-8038d120c904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1ab29d79-681b-466b-93fc-a0a02327ee98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{82b4fcc5-c74e-4da2-9729-916b27c34694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\include">
+      <UniqueIdentifier>{b8301884-b75a-459a-be99-b69e2ad07a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{954a8f61-1c3e-419b-baca-c5e2b83c689a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{bf012a46-7f78-412a-9cc2-e4c63f65bf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{b2d59c35-ec55-4f6c-85be-bd77e4e687b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nv_helpers_dx12\BottomLevelASGenerator.h">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nv_helpers_dx12\RaytracingPipelineGenerator.h">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nv_helpers_dx12\RootSignatureGenerator.h">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nv_helpers_dx12\ShaderBindingTableGenerator.h">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nv_helpers_dx12\TopLevelASGenerator.h">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nv_helpers_dx12\DXRHelper.h">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>_Libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\dxcapi.use.h">
+      <Filter>_Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\stb_image.h">
+      <Filter>_Libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\tiny_obj_loader.h">
+      <Filter>_Libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>_Libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSample.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSampleHelper.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Application.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nv_helpers_dx12\BottomLevelASGenerator.cpp">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nv_helpers_dx12\RaytracingPipelineGenerator.cpp">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nv_helpers_dx12\RootSignatureGenerator.cpp">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nv_helpers_dx12\ShaderBindingTableGenerator.cpp">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nv_helpers_dx12\TopLevelASGenerator.cpp">
+      <Filter>nv_helpers_DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="manipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSample.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Application.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="shaders.hlsl">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Common.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Hit.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Miss.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="RayGen.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ShadowRay.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\libs\dxcompiler.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
